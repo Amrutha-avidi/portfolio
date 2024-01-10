@@ -766,6 +766,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     padding: 0 100px;
+    position: relative;
 }
 
 @media screen and (max-width:1024px) {
@@ -785,6 +786,11 @@ body {
     width: 100%;
     height: 50%;
 }
+.project-content p {
+    font-style: italic;
+    font-size: 17px;
+
+}
 
 .project-content {
     padding: 10px 0;
@@ -803,11 +809,7 @@ body {
     font-size: 30px;
 }
 
-.project-content p {
-    font-style: italic;
-    font-size: 17px;
 
-}
 
 .project-content a {
     color: palevioletred;
